@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --GRAYTEXT: hsl(201, 11%, 66%);
+    --FF: 'Bai Jamjuree', sans-serif;
+    --TITLES-COLOR:hsl(210, 10%, 33%);
+    --FONTSIZE-TITLE: 1.5rem;
+}
+
+body {
+    background: url("images/bg-header-mobile.png") no-repeat fixed;
+    background-size: contain;
+    background-position: center top;
+}
+
+#intro_section {
+    text-align: center;
+    margin: 100px auto;
+    width: min(90%, 1400px);
+}
+
+.main_logo {
+    margin-bottom: 50px;
+}
+
+.intro_title {
+    margin-bottom: 20px;
+    color: hsl(210, 10%, 33%);
+    font-family: var(--FF);
+}
+
+.intro_description {
+    color: var(--GRAYTEXT);
+    font-family: var(--FF);
+}
+
+.download_btn_container {
+    margin: 30px auto;
+    width: min(100%,300px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ios_download_btn {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.mac_download_btn {
+    background-color: hsl(210, 10%, 33%);
+}
+
+.ios_download_btn,.mac_download_btn {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    width: 100%;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.524);
+    font-family: var(--FF);
+}
+
+.ios_download_btn:hover {
+    background-color: rgb(49, 255, 186);
+}
+
+.mac_download_btn:hover {
+    background-color: rgba(0, 0, 0, 0.824);
+}
+
+#keep_track_section {
+    width: min(80%,1400px);
+    margin: 100px auto;
+    text-align: center;
+}
+
+.keep_track_title {
+    margin: 20px auto;
+    color: var(--TITLES-COLOR);
+    font-family: var(--FF);
+}
+
+.keep_track_description {
+    margin: 0px auto 50px auto;
+    color: var(--GRAYTEXT);
+}
+
+.computer_image {
+    width: 100%;
+}
+
+.keep_track_points_container {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.keep_track_points_title {
+    margin: 10px auto;
+    color: var(--TITLES-COLOR);
+    font-family: var(--FF);
+    font-size: var(--FONTSIZE-TITLE);
+
+}
+
+.keep_track_points_description {
+    color: var(--GRAYTEXT);
+    font-size: 1.3rem;
+}
+
+#access_section {
+    margin: 50px auto;
+    width: min(80%,1400px);
+    text-align: center;
+}
+
+.access_title {
+    margin: 20px auto;
+    color: var(--TITLES-COLOR);
+    font-size: var(--FONTSIZE-TITLE);
+    font-family: var(--FF);
+
+}
+
+.access_description {
+    color: var(--GRAYTEXT);
+    font-family: var(--FF);
+    margin: 0px auto 50px auto;
+}
+
+.devices_image {
+    width: 70%;
+    
+}
+
+#supercharge_section {
+    margin: 0px auto;
+    text-align: center;
+    width: min(80%, 1400px);
+}
+
+.supercharge {
+    margin: 50px auto;
+}
+
+.supercharge_title {
+    color: var(--TITLES-COLOR);
+    font-family: var(--FF);
+    font-size: var(--FONTSIZE-TITLE);
+}
+
+.supercharge_description {
+    margin: 10px auto 50px auto;
+    color: var(--GRAYTEXT);
+    font-family: var(--FF);
+    margin: 10px auto 25px auto;
+}
+
+.supercharge_logos {
+    margin: 20px auto;
+}
+
+.supercharge_titles {
+    color: var(--TITLES-COLOR);
+    font-family: var(--FF);
+    font-size: 1.4rem;
+    margin: 10px auto;
+}
+
+.supercharge_point_blacklist {
+    margin: 50px auto;
+}
+
+
+.supercharge_points_description {
+    font-family: var(--FF);
+}
+
+#sponsors_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: min(90%, 1000px);
+    margin: 100px auto;
+    gap: 100px;
+}
+
+#bottom_section {
+    width: min(80%,1400px);
+    text-align: center;
+    margin: 150px auto;
+
+}
+
+.bottom_section_title {
+    color: var(--TITLES-COLOR);
+    font-family: var(--FF);
+    font-size: var(--FONTSIZE-TITLE);
+
+}
+
+.bottom_section_description {
+    color: var(--GRAYTEXT);
+    font-family: var(--FF);
+    margin: 20px auto;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    width: min(100%, 1400px);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_logo {
+    display: block;
+    margin: auto auto;
+    padding: 40px 0px 40px 0px;
+}
+
+.quicklinks {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+a:any-link {
+    text-decoration: none;
+}
+
+.links:hover {
+    color: aqua;
+}
+
+.links {
+    color: black;
+}
+
+.socials_container {
+    width: 150px;
+    padding: 40px 0px 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.credits {
+    text-align: center;
+}
+
+.challenge_website, .aurthor {
+    color: aqua;
+}
+
+@media (min-width:960px) {
+
+    body {
+        background: url("images/bg-header-desktop.png") no-repeat;
+        background-position: center top;
+    }
+
+    .download_btn_container {
+        flex-direction: row;
+        width: min(100%,400px);
+    }
+
+
+    #keep_track_section {
+        width: min(100%, 1400px);
+    }
+
+    .keep_track_description {
+        max-width: 70ch;
+    }
+
+    .keep_track_container {
+        display: flex;
+        align-items: center;
+    }
+
+    .keep_track_points_container {
+        text-align: left;
+    }
+    
+    .computer_image {
+        width: 50%;
+        height: 90%;
+    }
+    
+    .keep_track_points_container {
+        width: min(40%, 1400px);
+    }
+
+    .supercharge_points_container {
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+    .supercharge:nth-child(1) {
+        width: 60ch;
+    }
+
+    #sponsors_container {
+        display: flex;
+        flex-direction: row;
+        width: min(80%, 1400px);
+        margin: 150px auto;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+    .sponsors_logo {
+        width: 10%;
+    }
+
+    .quicklinks {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .socials_container { 
+       padding: 0;
+    }
+
+    .links {
+        font-size: 1.2rem;
+    }
+
+    .footer_logo {
+        padding: 0;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 50px 0px;
+    }
+}
