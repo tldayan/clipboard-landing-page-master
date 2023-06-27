@@ -21,7 +21,7 @@ By leveraging CSS techniques, I aimed to enhance the design with attention to de
 ## Technologies Used
 
 - HTML
-- CSS
+- SCSS
 
 ## Installation
 
