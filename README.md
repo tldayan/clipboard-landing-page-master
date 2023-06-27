@@ -37,7 +37,7 @@ By leveraging CSS techniques, I aimed to enhance the design with attention to de
 
 ## Credits
 
-This project was completed as part of the Clipboard Landing Page challenge provided by [Frontend Mentor](https://www.frontendmentor.io/). The challenge provided the design mockup and assets, and I implemented the code to achieve the desired layout and responsiveness.
+This project was completed as part of the Clipboard Landing Page challenge by [Frontend Mentor](https://www.frontendmentor.io/). The challenge provided the design mockup and assets, and I implemented the code to achieve the desired layout and responsiveness.
 
 ## License
 
